@@ -1,0 +1,247 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'montserrat_regular';
+    src: url(../fonts/montserrat-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_medium';
+    src: url(../fonts/montserrat-medium-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_extrabold';
+    src: url(../fonts/montserrat-extrabold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Style */
+:root {
+    --color1 : #1A120B;
+    --color2 : #AF672E;
+    --color3 : #DE9F65;
+    --color4 : #E5E5CB;
+}
+
+body {
+    height: 2533px;
+}
+
+/* Navbar */
+
+.navbar {
+    margin: 0 70px;
+    padding-top: 50px;
+}
+
+.navbar .judul {
+    font-family: 'montserrat_extrabold', arial, sans-serif;
+    font-size: 2rem;
+}
+
+.navbar .judul span {
+    color: var(--color3);
+}
+
+.navbar nav {
+    text-align: right;
+    margin-top: -25px;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+}
+
+.navbar nav ul li a {
+    font-family: 'montserrat_medium';
+    text-decoration: none;
+    color: var(--color4);
+    margin-left: 40px;
+    transition: 300ms;
+    font-size: 1rem;
+}
+
+.navbar nav ul li a:hover {
+    color: var(--color3);
+    
+}
+
+.navbar nav ul li a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.15rem solid var(--color1);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+    margin-right: -40px;
+}
+
+.navbar nav ul li a:hover::after {
+    transform: scaleX(0.25);
+}
+
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    background-image: url(../assets/img/hero.png);
+}
+
+/* Content */
+
+/* html * {
+    border: 2px solid red;
+} */
+
+
+.content h1 {
+    font-family: 'montserrat_extrabold';
+    font-size: 3rem;
+    margin-left: 70px;
+    color: var(--color4);
+    margin-top: 150px;
+    line-height: 4rem;
+}
+
+.content h1 span {
+    color: var(--color3);
+}
+
+.content p {
+    font-family: 'montserrat_regular';
+    margin-left: 70px;
+    line-height: 1.5rem;
+    margin-top: 20px;
+    color: var(--color4);
+}
+
+.content .btn {
+    width: 140px;
+    height: 40px;
+    background-color: var(--color2);
+    margin-left: 70px;
+    margin-top: 35px;
+    border-radius: 50px;
+    border: none;
+    color: var(--color4);
+    font-family: 'montserrat_regular';
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.content .btn:hover {
+    background-color:#865025;
+}
+
+.content .btn:active {
+    transform: scale(0.95);
+}
+
+/* Page 1 */
+
+.page1 {
+    height: 550px;
+    background-color: var(--color4);
+    text-align: center;
+}
+
+.page1 h1 {
+    font-size: 2.5rem;
+    padding-top: 180px;
+    font-family: 'montserrat_extrabold';
+}
+
+.page1 p {
+    margin: 25px 0 40px;
+    font-family: 'montserrat_regular';
+    color: var(--color2);
+    line-height: 20px;
+}
+
+.page1 .btn {
+    width: 160px;
+    height: 50px;
+    background-color: var(--color2);
+    color: var(--color4);
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    transition: 300ms;
+}
+
+.page1 .btn:hover {
+    background-color:#865025;
+}
+
+.page1 .btn:active {
+    transform: scale(0.95);
+}
+
+/* Page 2 */
+
+.page2 {
+    height: 661px;
+    background-color: rgba(175, 103, 46, 0.3);
+}
+
+/* Page 3 */
+
+.page3 {
+    height: 511px;
+    background-color: var(--color4);
+}
+
+/* Footer */
+.footer {
+    height: 150px;
+    background-color: var(--color2);
+}

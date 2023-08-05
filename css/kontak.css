@@ -1,0 +1,217 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* Fonts */
+@font-face {
+    font-family: 'montserrat_regular';
+    src: url(../fonts/montserrat-regular-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_medium';
+    src: url(../fonts/montserrat-medium-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'montserrat_extrabold';
+    src: url(../fonts/montserrat-extrabold-webfont.woff) format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Style */
+:root {
+    --color1 : #1A120B;
+    --color2 : #AF672E;
+    --color3 : #DE9F65;
+    --color4 : #E5E5CB;
+}
+
+/* Navbar */
+
+.hero .navbar {
+    padding: 50px 70px 70px;
+}
+
+.hero .navbar .judul {
+    font-family: 'montserrat_extrabold', arial, sans-serif;
+    font-size: 2rem;
+    color: var(--color4);
+}
+
+.hero .navbar .judul span {
+    color: var(--color3);
+}
+
+.hero .navbar nav {
+    text-align: right;
+    margin-top: -25px;
+}
+
+.navbar nav ul li {
+    display: inline-block;
+}
+
+.hero .navbar nav ul li a {
+    margin-left: 40px;
+}
+
+.hero #hamburger-menu {
+    display: none;
+}
+
+.navbar nav ul li a {
+    font-family: 'montserrat_medium';
+    text-decoration: none;
+    color: var(--color4);
+    transition: 300ms;
+    font-size: 1rem;
+}
+
+.navbar nav ul li a:hover {
+    color: var(--color3);
+    
+}
+
+.hero .navbar nav ul li a::after {
+    content: "";
+    display: block;
+    padding-bottom: 0.5rem;
+    border-bottom: 0.15rem solid var(--color1);
+    transform: scaleX(0);
+    transition: 0.2s linear;
+    margin-right: -40px;
+}
+
+.hero .navbar nav ul li a:hover::after {
+    transform: scaleX(0.25);
+}
+
+
+/* Hero Section */
+.hero {
+    min-height: 100vh;
+    background-image: url(../assets/img/hero.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+/* Content */
+.content {
+    width: 100%;
+    height: 500px;
+    background-color: #1A120B;
+    box-sizing: border-box;
+    padding: 0 70px;
+}
+
+.content .links img {
+    width: 50px;
+    height: 50px;
+}
+
+.content .links img:last-child(-1) {
+    width: 600px;
+    height: 600px;
+}
+
+/* Footer */
+.footer {
+    background-color: var(--color2);
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.footer .logo {
+    width: 100%;
+    text-align: center;
+}
+
+.footer .logo img {
+    width: 35px;
+    height: 35px;
+}
+
+.footer .logo a:nth-child(3) img {
+    width: 37px;
+    height: 37px;
+}
+
+.footer .logo a:nth-child(2) {
+    margin: 0 15px;
+}
+
+.footer .navbar {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    text-align: center;
+}
+
+.footer .navbar nav ul li {
+    margin: 0 20px;
+}
+
+.footer .copyright {
+    font-size: 1rem;
+    font-family: 'montserrat_regular';
+    text-align: center;
+    color: var(--color4);
+    margin-top: 20px;
+}
+
+.footer .copyright span {
+    color: var(--color1);
+    font-family: 'montserrat_medium';
+}
+
+.cf {
+    clear: both;
+}

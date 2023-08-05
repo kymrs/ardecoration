@@ -72,6 +72,10 @@ table {
     --color4 : #E5E5CB;
 }
 
+.animate__delay1 {
+    animation: 800ms 0.5s;
+}
+
 /* Navbar */
 
 .hero .navbar {

@@ -353,6 +353,10 @@ table {
     height: 35px;
 }
 
+.footer .logo a {
+    text-decoration: none;
+}
+
 .footer .logo a:nth-child(3) img {
     width: 37px;
     height: 37px;

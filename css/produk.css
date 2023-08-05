@@ -193,12 +193,14 @@ table {
 
 .content1 h3,
 .content2 h3 {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
     color: var(--color4);
     font-family: 'montserrat_medium';
     background-color: rgba(0,0,0,0.25);
     border-radius: 5px;
     text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 .content1 p,
@@ -209,6 +211,8 @@ table {
     line-height: 25px;
     background-color: rgba(0,0,0,0.25);
     border-radius: 5px;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
 /* Footer */
@@ -226,6 +230,10 @@ table {
 .footer .logo img {
     width: 35px;
     height: 35px;
+}
+
+.footer .logo a {
+    text-decoration: none;
 }
 
 .footer .logo a:nth-child(3) img {

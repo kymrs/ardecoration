@@ -181,6 +181,7 @@ table {
     line-height: 1.5rem;
     margin-top: 20px;
     color: var(--color4);
+    padding: 0 30px;
 }
 
 .content .btn {
@@ -436,8 +437,11 @@ table {
 
     .hero .content {
         margin-left: -50px;
-        width: 70%;
-        z-index: -99;
+        width: 80%;
+    }
+
+    .hero .content p {
+        margin-left: 43px;
     }
 
     .hero #hamburger-menu {
@@ -470,15 +474,59 @@ table {
         margin-right: 50px;
     }
 
-
-
     .hero .navbar .nav ul li a {
         font-size: 1.3rem;
     }
 
+    .page1 {
+        padding: 0 10px;
+    }
+
+    .page1 p {
+        text-align: center;
+    }
+
+    .page2 .img {
+        float: none;
+        margin-left: 50px;
+    }
+
+    .page2 .side-bar {
+        margin-top: -450px;
+        float: none;
+        text-align: center;
+        margin-left: 30px;
+        width: 400px;
+    }
+
+    .page3 .side-bar {
+        margin-top: -250px;
+        float: none;
+        text-align: center;
+        margin-left: 85px;
+        padding: 0;
+        margin: 0;
+        height: 250px;
+        margin-left: 40px;
+        margin-top: 50px;
+        width: 400px;
+    }
+
+    .page3 .side-bar p {
+        text-align: center;
+    }
+
+    .page3 .img {
+        float: none;
+        width: 285px;
+        margin-left: 50px;
+        margin-left: 100px;
+        margin-top: -140px;
+    }
+
     .page2 img,
     .page3 img {
-        width: 230px;
+        width: 280px;
         height: 200px;
     }
 

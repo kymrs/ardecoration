@@ -423,33 +423,39 @@ table {
 /* Tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 62.5%;
+        font-size: 80.5%;
     }
 
     .hero {
         overflow: hidden;
     }
 
-    .hero .side-bar {
-        display: none;
+    .hero .judul {
+        margin-left: -50px;
     }
 
-    .hero .side-bar img {
-        display: none;
+    .hero .content {
+        margin-left: -50px;
+        width: 70%;
+        z-index: -99;
     }
 
     .hero #hamburger-menu {
         display: inline-block;
+        margin-right: -50px;
+        margin-top: -5px;
     }
 
     .hero .navbar .nav{
         position: absolute;
         top: 100%;
         right: -100%;
-        background-color: var(--color1);
-        width: 25rem;
+        background-color: rgba(26, 18, 11, 0.8);
+        width: 20rem;
         height: 100vh;
         transition: 0.3s;
+        margin-top: 30px;
+        padding-top: 20px;
     }
 
     .hero .navbar .nav.active {
@@ -464,15 +470,16 @@ table {
         margin-right: 50px;
     }
 
+
+
     .hero .navbar .nav ul li a {
         font-size: 1.3rem;
     }
 
     .page2 img,
     .page3 img {
-        border: 3px solid red;
-        width: 150px;
-        height: 150px;
+        width: 230px;
+        height: 200px;
     }
 
 }

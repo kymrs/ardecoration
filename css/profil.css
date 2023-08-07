@@ -156,7 +156,7 @@ table {
 }
 
 .content h1 {
-    font-size: 2.2rem;
+    font-size: 2.1rem;
     font-family: 'montserrat_extrabold';
     color: var(--color4);
     text-align: center;
@@ -190,6 +190,33 @@ table {
     box-sizing: border-box;
     border-radius: 10px;
     background-color: rgba(0,0,0,0.2);
+}
+
+/* Page 1 */
+
+.page1 {
+    height: 550px;
+    background-color: var(--color4);
+    padding: 0 5%;
+}
+
+.page1 h1 {
+    font-size: 2.1rem;
+    padding-top: 50px;
+    font-family: 'montserrat_extrabold';
+    color: var(--color1);
+    
+}
+
+.page1 p {
+    background-color: rgba(175, 103, 46, 0.4);
+    width: 90%;
+    font-size: 1.1rem;
+    font-family: 'montserrat_regular';
+    margin: 50px auto 0;
+    color: var(--color1);
+    border-radius: 10px;
+    padding: 10px;
 }
 
 /* Footer */
@@ -248,4 +275,98 @@ table {
 
 .cf {
     clear: both;
+}
+
+/* Media Queries */
+
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 78.5%;
+    }
+
+    .hero {
+        overflow: hidden;
+    }
+
+    .hero .content p {
+        font-size: 110%;
+
+    }
+
+    .hero .judul {
+        margin-left: -50px;
+    }
+
+    .hero #hamburger-menu {
+        display: inline-block;
+        margin-right: -50px;
+        margin-top: -5px;
+    }
+
+    .hero .navbar .nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: rgba(26, 18, 11, 0.8);
+        width: 20rem;
+        height: 100vh;
+        transition: 0.3s;
+        margin-top: 30px;
+        padding-top: 20px;
+    }
+
+    .hero .navbar .nav.active {
+        right: 0;
+      }
+
+    .hero .navbar .nav ul li {
+        color: var(--color4);
+        display: block;
+        margin: 1rem;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .hero .navbar .nav ul li a {
+        font-size: 1.3rem;
+    }
+
+    .content h1{
+        margin: 0 auto;
+        
+    }
+
+    .content .logo {
+        float: none;
+        margin: 0 auto;
+        padding: 0;
+        text-align: center;
+        width: 50%;
+    }
+
+    .content .logo img {
+        margin: 0;
+        padding: 0;
+        margin-top: 50px;
+    }
+
+    .content .side-bar {
+        float: none;
+        margin: -300px auto 0;
+        padding: 0;
+        width: 90%;
+    }
+
+    .page1 {
+        padding-top: 100px;
+    }
 }

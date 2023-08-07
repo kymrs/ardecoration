@@ -177,7 +177,7 @@ table {
 
 .content p {
     font-family: 'montserrat_regular';
-    margin-left: 70px;
+    margin-left: 45px;
     line-height: 1.5rem;
     margin-top: 20px;
     color: var(--color4);
@@ -488,28 +488,27 @@ table {
 
     .page2 .img {
         float: none;
-        margin-left: 50px;
+        width: 400px;
+        margin: 0px auto;
+        padding: 0;
     }
 
     .page2 .side-bar {
         margin-top: -450px;
         float: none;
         text-align: center;
-        margin-left: 30px;
         width: 400px;
+        margin: -450px auto 0;
+        padding: 0;
     }
 
     .page3 .side-bar {
-        margin-top: -250px;
         float: none;
-        text-align: center;
-        margin-left: 85px;
         padding: 0;
-        margin: 0;
         height: 250px;
-        margin-left: 40px;
         margin-top: 50px;
         width: 400px;
+        margin: 50px auto 0;
     }
 
     .page3 .side-bar p {
@@ -519,9 +518,7 @@ table {
     .page3 .img {
         float: none;
         width: 285px;
-        margin-left: 50px;
-        margin-left: 100px;
-        margin-top: -140px;
+        margin: -140px auto 0;
     }
 
     .page2 img,

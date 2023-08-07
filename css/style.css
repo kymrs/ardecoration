@@ -433,6 +433,7 @@ table {
 
     .hero .content p {
         font-size: 110%;
+
     }
 
     .hero .judul {
@@ -492,6 +493,8 @@ table {
 
     .page1 p {
         text-align: center;
+        width: 400px;
+        margin: 40px auto;
     }
 
     .page2 .img {
@@ -526,7 +529,7 @@ table {
     .page3 .img {
         float: none;
         width: 285px;
-        margin: -140px auto 0;
+        margin: -120px auto 0;
     }
 
     .page2 img,

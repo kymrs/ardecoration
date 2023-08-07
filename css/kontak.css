@@ -269,3 +269,102 @@ table {
 .cf {
     clear: both;
 }
+
+/* Media Queries */
+
+
+/* Laptop */
+@media (max-width: 1366px) {
+    html {
+        font-size: 90%;
+    }
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+    html {
+        font-size: 78.5%;
+    }
+
+    .hero {
+        overflow: hidden;
+    }
+
+    .hero .content p {
+        font-size: 110%;
+
+    }
+
+    .hero .judul {
+        margin-left: -50px;
+    }
+
+    .hero .content {
+        margin-left: -50px;
+        width: 80%;
+    }
+
+    .hero .content p {
+        margin-left: 43px;
+    }
+
+    .hero #hamburger-menu {
+        display: inline-block;
+        margin-right: -50px;
+        margin-top: -5px;
+    }
+
+    .hero .navbar .nav{
+        position: absolute;
+        top: 100%;
+        right: -100%;
+        background-color: rgba(26, 18, 11, 0.8);
+        width: 20rem;
+        height: 100vh;
+        transition: 0.3s;
+        margin-top: -30px;
+        padding-top: 20px;
+    }
+
+    .hero .navbar .nav.active {
+        right: 0;
+      }
+
+    .hero .navbar .nav ul li {
+        color: var(--color4);
+        display: block;
+        margin: 1rem;
+        text-align: center;
+        margin-right: 50px;
+    }
+
+    .hero .navbar .nav ul li a {
+        font-size: 1.3rem;
+    }
+
+    .hero .content {
+        float: none;
+        height: 800px;
+        margin: 0 auto;
+        padding: 0;
+    }
+
+    .hero .content.active1 {
+        transition: 200ms;
+        padding-top: 150px;
+    }
+
+    .hero .links {
+        float: none;
+    }
+
+    .hero .links .row {
+        width: 300px;
+    }
+    
+    .hero .logo {
+        float: none;
+        width: 400px;
+    }
+
+}

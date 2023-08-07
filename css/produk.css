@@ -344,13 +344,11 @@ table {
         padding: 0;
         padding-left: 5%;
         height: 750px;
-        box-sizing: border-box;
     }
 
     .content.active1 {
         transition: 200ms;
         padding-top: 150px;
-        box-sizing: border-box;
     }
 
     .content h1{

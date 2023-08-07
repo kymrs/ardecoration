@@ -493,8 +493,10 @@ table {
 
     .page1 p {
         text-align: center;
-        width: 400px;
+        width: 350px;
         margin: 40px auto;
+        padding: 0;
+        border: 3px solid red;
     }
 
     .page2 .img {

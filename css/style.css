@@ -424,11 +424,15 @@ table {
 /* Tablet */
 @media (max-width: 768px) {
     html {
-        font-size: 80.5%;
+        font-size: 78.5%;
     }
 
     .hero {
         overflow: hidden;
+    }
+
+    .hero .content p {
+        font-size: 110%;
     }
 
     .hero .judul {
@@ -482,6 +486,10 @@ table {
         padding: 0 10px;
     }
 
+    .page1 h1 {
+        margin-top: -30px;
+    }
+
     .page1 p {
         text-align: center;
     }
@@ -497,7 +505,7 @@ table {
         margin-top: -450px;
         float: none;
         text-align: center;
-        width: 400px;
+        width: 330px;
         margin: -450px auto 0;
         padding: 0;
     }
@@ -507,7 +515,7 @@ table {
         padding: 0;
         height: 250px;
         margin-top: 50px;
-        width: 400px;
+        width: 330px;
         margin: 50px auto 0;
     }
 

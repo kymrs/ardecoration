@@ -505,12 +505,17 @@ table {
         padding: 0;
     }
 
+    .page2 .img img {
+        border: 3px solid black;
+        margin: 50px auto 0;
+    }
+
     .page2 .side-bar {
         margin-top: -450px;
         float: none;
         text-align: center;
         width: 330px;
-        margin: -450px auto 0;
+        margin: -470px auto 0;
         padding: 0;
     }
 

@@ -90,6 +90,7 @@ table {
     font-family: 'montserrat_extrabold', arial, sans-serif;
     font-size: 2rem;
     color: var(--color4);
+    text-shadow: 3px 3px rgba(0,0,0,0.5);
 }
 
 .hero .navbar .judul span {
@@ -187,6 +188,11 @@ table {
     color: var(--color4);
     font-family: 'montserrat_medium';
     font-size: 1.2rem;
+    transition: 300ms;
+}
+
+.content .links .row a:hover {
+    color: var(--color3);
 }
 
 
@@ -364,7 +370,15 @@ table {
     
     .hero .logo {
         float: none;
-        width: 400px;
+        width: 250px;
+        margin: 0 auto;
+        padding: 0;
+        height: 300px;
     }
+
+    .hero .logo img {
+        margin: 70px auto;
+    }
+
 
 }

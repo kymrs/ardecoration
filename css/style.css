@@ -92,6 +92,7 @@ table {
     font-family: 'montserrat_extrabold', arial, sans-serif;
     font-size: 2rem;
     color: var(--color4);
+    text-shadow: 3px 3px rgba(0,0,0,0.5);
 }
 
 .hero .navbar .judul span {
@@ -169,6 +170,7 @@ table {
     color: var(--color4);
     margin-top: 150px;
     line-height: 4rem;
+    text-shadow: 3px 3px rgba(0,0,0,0.5);
 }
 
 .content h1 span {
@@ -182,6 +184,7 @@ table {
     margin-top: 20px;
     color: var(--color4);
     padding: 0 30px;
+    text-shadow: 2px 2px rgba(0,0,0,0.5);
 }
 
 .content .btn {
@@ -197,6 +200,7 @@ table {
     cursor: pointer;
     transition: 300ms;
     margin-bottom: 50px;
+    box-shadow: 3px 3px rgba(0,0,0,0.5);
 }
 
 .content .btn:hover {
@@ -204,7 +208,7 @@ table {
 }
 
 .content .btn:active {
-    transform: scale(0.95);
+    transform: scale(0.5);
 }
 
 /* Page 1 */
@@ -491,10 +495,19 @@ table {
         margin-top: -30px;
     }
 
+    .page1 button a {
+        text-decoration: none;
+    }
+
     .page1 p {
         text-align: center;
         width: 350px;
         margin: 40px auto;
+        padding: 0;
+    }
+
+    .page2 {
+        margin: 0;
         padding: 0;
     }
 

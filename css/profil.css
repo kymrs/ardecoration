@@ -172,6 +172,7 @@ table {
     height: 200px;
     border-radius: 50%;
     margin: 130px 50px;
+    filter: opacity(0.75);
 }
 
 .content .side-bar {

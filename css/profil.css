@@ -155,6 +155,7 @@ table {
     box-sizing: border-box;
 }
 
+
 .content h1 {
     font-size: 2.1rem;
     font-family: 'montserrat_extrabold';
@@ -296,6 +297,7 @@ table {
 
     .hero {
         overflow: hidden;
+        height: 1000px;
     }
 
     .hero .content p {
@@ -341,9 +343,13 @@ table {
         font-size: 1.3rem;
     }
 
+    .content.active1 {
+        transition: 200ms;
+        padding-top: 150px;
+    }
+
     .content h1{
         margin: 0 auto;
-        
     }
 
     .content .logo {
@@ -362,9 +368,10 @@ table {
 
     .content .side-bar {
         float: none;
-        margin: -300px auto 0;
+        margin: -280px auto 0;
         padding: 0;
         width: 90%;
+        height: 350px;
     }
 
     .page1 {

@@ -304,7 +304,7 @@ table {
 
     .hero {
         overflow: hidden;
-        height: 1000px;
+        height: 1100px;
     }
 
     .hero .content p {
@@ -349,6 +349,11 @@ table {
 
     .hero .navbar .nav ul li a {
         font-size: 1.3rem;
+    }
+
+    .content {
+        padding: 0;
+        transition: 200ms;
     }
 
     .content.active1 {

@@ -346,6 +346,7 @@ table {
         padding: 0;
         padding-left: 5%;
         height: 830px;
+        transition: 200ms;
     }
 
     .content.active1 {

@@ -326,10 +326,11 @@ table {
         right: -100%;
         background-color: rgba(26, 18, 11, 0.8);
         width: 20rem;
-        height: 100vh;
         transition: 0.3s;
         margin-top: -30px;
         padding-top: 20px;
+        height: 29vh;
+        border-radius: 5px;
     }
 
     .hero .navbar .nav.active {
@@ -357,7 +358,7 @@ table {
 
     .hero .content.active1 {
         transition: 200ms;
-        padding-top: 150px;
+        padding-top: 200px;
     }
 
     .hero .links {

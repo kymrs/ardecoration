@@ -345,7 +345,7 @@ table {
     .content {
         padding: 0;
         padding-left: 5%;
-        height: 830px;
+        height: 900px;
         transition: 200ms;
     }
 
@@ -365,7 +365,7 @@ table {
         float: none;
         width: 45%;
         padding: 50px 0;
-        margin-left: 44%;
+        margin-left: 44.5%;
 
     }
 

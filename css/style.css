@@ -67,7 +67,7 @@ table {
 /* Style */
 :root {
     --color1 : #1A120B;
-    --color2 : #AF672E;
+    --color2 : #b0682e;
     --color3 : #DE9F65;
     --color4 : #E5E5CB;
 }
@@ -288,7 +288,7 @@ table {
 .page2 .img img {
     margin-top: 70px;
     box-sizing: border-box;
-    border: 3px solid var(--color2);
+    border: 3px solid rgba(175, 103, 46, 0.4);
     border-radius: 5px;
 }
 
@@ -359,7 +359,7 @@ table {
 }
 
 .page3 .img img {
-    border: 3px solid var(--color2);
+    border: 3px solid rgba(175, 103, 46, 0.4);
     border-radius: 5px;
 }
 

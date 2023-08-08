@@ -345,7 +345,7 @@ table {
     .content {
         padding: 0;
         padding-left: 5%;
-        height: 800px;
+        height: 830px;
     }
 
     .content.active1 {
@@ -357,13 +357,14 @@ table {
         margin: 0 auto;
     }
 
+
     .content1,
     .content2
     {
         float: none;
-        width: 50%;
+        width: 45%;
         padding: 50px 0;
-        margin-left: 43%;
+        margin-left: 44%;
 
     }
 
